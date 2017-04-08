@@ -18,5 +18,6 @@ export class EvolutionComponent implements OnInit {
   public chartButton() {
     this.hiddenChart = !this.hiddenChart;
 
+
   }
 }

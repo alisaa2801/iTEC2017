@@ -11,7 +11,7 @@ export class EvolChartComponent implements OnInit {
 
 
   // Pie
-  public pieChartLabels: string[] = ['Download Sales', 'In-Store Sales', 'Mail Sales'];
+  public pieChartLabels: string[] = ['Last year', 'In-Store Sales', 'Mail Sales'];
   public pieChartData: number[] = [300, 500, 100];
   public pieChartType = 'pie';
 
