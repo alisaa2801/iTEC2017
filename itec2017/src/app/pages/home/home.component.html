@@ -1,10 +1,9 @@
 <div class="row">
   <div class="col-8 offset-2">
 
-<h2 class="subtitle">
-  Map to a better world!
-</h2>
-
+    <h2 class="subtitle">
+      Map to a better world!
+    </h2>
 
 
     <div class="jumbotron">
@@ -19,9 +18,9 @@
     </div>
 
     <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success btn-lg">About pollution</button>
+    <button type="button" class="btn btn-success btn-lg" (click)="aboutButton()">About pollution</button>
     <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success btn-lg">Statistics</button>
+    <button type="button" class="btn btn-success btn-lg" (click)="statisticsButton()">Statistics</button>
     <!-- Indicates a successful or positive action -->
     <button type="button" class="btn btn-success btn-lg" (click)="getInvolvedButton()">Get involved!</button>
 
@@ -29,5 +28,10 @@
     <app-get-involved [hidden]="hiddenForm">
     </app-get-involved>
 
+    <app-about [hidden]="hiddenAbout">
+    </app-about>
+
+    <app-statistics [hidden]="hiddenStatistics">
+    </app-statistics>
   </div>
 </div>

@@ -10,6 +10,10 @@ import {RouterModule, Routes} from '@angular/router';
 import { PollutionMapComponent } from './pages/pollution-map/pollution-map.component';
 import { GetInvolvedComponent } from './pages/get-involved/get-involved.component';
 import { StatisticsComponent } from './pages/statistics/statistics.component';
+import { AboutComponent } from './pages/about/about.component';
+import { EvolutionComponent } from './pages/statistics/evolution/evolution.component';
+import { ComparativeComponent } from './pages/statistics/comparative/comparative.component';
+import { RegionComponent } from './pages/statistics/region/region.component';
 
 const ROUTES: Routes = [
   {
@@ -27,7 +31,11 @@ const ROUTES: Routes = [
     SubtitleComponent,
     PollutionMapComponent,
     GetInvolvedComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    AboutComponent,
+    EvolutionComponent,
+    ComparativeComponent,
+    RegionComponent
   ],
   imports: [
     BrowserModule,

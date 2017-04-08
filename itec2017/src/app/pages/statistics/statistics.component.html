@@ -1,3 +1,87 @@
-<p>
-  statistics works!
-</p>
+<p></p><p></p>
+<h1 class="statistics">Recent data about air pollution </h1>
+<p></p><p></p>
+
+<div class="card">
+  <img class="card-img-top" src="assets\Images\clean.jpg" alt="Card image cap">
+  <!--<div class="card-block">-->
+  <!--<p class="card-text">Recent data about air pollution</p>-->
+  <!--</div>-->
+</div>
+
+<p></p><p></p><p></p><p></p><p></p><p></p>
+
+<button type="button" class="btn btn-warning btn-lg" (click)="evolutionButton()">Evolution of pollution</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger btn-lg" (click)="comparativeButton()">Comparative pollution</button>
+
+<button type="button" class="btn btn-info btn-lg" (click)="regionButton()">Region pollution</button>
+
+<app-evolution [hidden]="hiddenEvolution">
+</app-evolution>
+
+<app-comparative [hidden]="hiddenComparative">
+</app-comparative>
+
+<app-region [hidden]="hiddenRegion">
+</app-region>
+
+<p></p><p></p><p></p>
+<!--<fieldset class="form-group">-->
+<!--<h4 class="card-title">City</h4>-->
+<!--&lt;!&ndash;<legend>The polluted city</legend>&ndash;&gt;-->
+
+<!--<select class="custom-select">-->
+<!--<option selected>City</option>-->
+<!--<option value="1">ALBA IULIA</option>-->
+<!--<option value="2">ARAD</option>-->
+<!--<option value="3">BUCURESTI</option>-->
+<!--<option value="4">BACAU</option>-->
+<!--<option value="5">BAIA MARE</option>-->
+<!--<option value="6">BISTRITA</option>-->
+<!--<option value="7">BOTOSANI</option>-->
+<!--<option value="8">BRAILA</option>-->
+<!--<option value="9">BRASOV</option>-->
+<!--<option value="10">BUZAU</option>-->
+<!--<option value="11">CALAN</option>-->
+<!--<option value="12">CALARASI</option>-->
+<!--<option value="13">CAMPULUNG</option>-->
+<!--<option value="14">CLUJ-NAPOCA</option>-->
+<!--<option value="15">CONSTANTA</option>-->
+<!--<option value="16">CRAIOVA</option>-->
+<!--<option value="17">DEVA</option>-->
+<!--<option value="18">DROBETA TURNU SEVERIN</option>-->
+<!--<option value="19">FOCSANI</option>-->
+<!--<option value="20">GALATI</option>-->
+<!--<option value="21">GIURGIU</option>-->
+<!--<option value="22">IASI</option>-->
+<!--<option value="23">LUGOJ</option>-->
+<!--<option value="24">MANGALIA</option>-->
+<!--<option value="25">MEDIAS</option>-->
+<!--<option value="26">MIERCUREA CIUC</option>-->
+<!--<option value="27">NAVODARI</option>-->
+<!--<option value="27">ORADEA</option>-->
+<!--<option value="27">OTELU ROSU</option>-->
+<!--<option value="27">PIATRA NEAMT</option>-->
+<!--<option value="27">PITESTI</option>-->
+<!--<option value="27">PLOIESTI</option>-->
+<!--<option value="27">RAMNICU VALCEA</option>-->
+<!--<option value="27">RESITA</option>-->
+<!--<option value="27">SATU MARE</option>-->
+<!--<option value="27">SEBES</option>-->
+<!--<option value="27">SIBIU</option>-->
+<!--<option value="27">SUCEAVA</option>-->
+<!--<option value="27">TARGOVISTE</option>-->
+<!--<option value="27">TARGU JIU</option>-->
+<!--<option value="27">TIMISOARA</option>-->
+<!--<option value="27">URZICENI</option>-->
+<!--<option value="27">VASLUI</option>-->
+<!--<option value="27">ZALAU</option>-->
+
+
+<!--</select>-->
+<!--</fieldset>-->
+
+
+<!--<button type="submit" class="btn btn-primary">Submit</button>-->
