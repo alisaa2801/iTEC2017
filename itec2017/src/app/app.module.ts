@@ -17,6 +17,10 @@ import { RegionComponent } from './pages/statistics/region/region.component';
 import {AnychartDirective, AnychartService} from 'anychart-angular2/components';
 import { EvolChartComponent } from './pages/statistics/evolution/evol-chart/evol-chart.component';
 import {ChartsModule} from 'ng2-charts';
+import { EvolChart2009Component } from './pages/pollution-map/evol-chart2009/evol-chart2009.component';
+import { EvolChart2010Component } from './pages/pollution-map/evol-chart2010/evol-chart2010.component';
+import { EvolChart2011Component } from './pages/pollution-map/evol-chart2011/evol-chart2011.component';
+import { EvolChart2012Component } from './pages/pollution-map/evol-chart2012/evol-chart2012.component';
 
 
 const ROUTES: Routes = [
@@ -41,7 +45,11 @@ const ROUTES: Routes = [
     ComparativeComponent,
     RegionComponent,
     AnychartDirective,
-    EvolChartComponent
+    EvolChartComponent,
+    EvolChart2009Component,
+    EvolChart2010Component,
+    EvolChart2011Component,
+    EvolChart2012Component
   ],
   imports: [
     BrowserModule,

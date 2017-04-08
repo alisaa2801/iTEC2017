@@ -7,4 +7,25 @@
   The country’s factories, chemical plants, and electric power plants depend heavily on burning fossil fuels, a process that emits high levels of carbon dioxide and sulfur dioxide - a key component of acid rain.
 </p>
 
+<p></p>
+<p></p>
+<button type="submit" class="btn btn-primary" (click)="chartButton()">2008</button>
+<button type="submit" class="btn btn-primary" (click)="chartButton()">2009</button>
+<button type="submit" class="btn btn-primary" (click)="chartButton()">2010</button>
+<button type="submit" class="btn btn-primary" (click)="chartButton()">2011</button>
+<button type="submit" class="btn btn-primary" (click)="chartButton()">2012</button>
 
+<app-evol-chart [hidden]="hiddenChart">
+</app-evol-chart>
+
+<app-evol-chart2009 [hidden]="hiddenChart2009">
+</app-evol-chart2009>
+
+<app-evol-chart2010 [hidden]="hiddenChart2010">
+</app-evol-chart2010>
+
+<app-evol-chart2011 [hidden]="hiddenChart2011">
+</app-evol-chart2011>
+
+<app-evol-chart2012 [hidden]="hiddenChart2012">
+</app-evol-chart2012>

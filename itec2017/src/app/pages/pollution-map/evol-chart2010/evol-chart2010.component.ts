@@ -1,11 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-evol-chart',
-  templateUrl: './evol-chart.component.html',
-  styleUrls: ['./evol-chart.component.css']
+  selector: 'app-evol-chart2010',
+  templateUrl: './evol-chart2010.component.html',
+  styleUrls: ['./evol-chart2010.component.css']
 })
-export class EvolChartComponent implements OnInit {
+export class EvolChart2010Component implements OnInit {
 
 
 
