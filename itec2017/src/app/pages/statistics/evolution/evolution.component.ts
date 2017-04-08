@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-evolution',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./evolution.component.css']
 })
 export class EvolutionComponent implements OnInit {
+  public hiddenChart = true;
 
-  constructor() { }
+  constructor() {
+  }
+
 
   ngOnInit() {
   }
 
+  public chartButton() {
+    this.hiddenChart = !this.hiddenChart;
+
+  }
 }

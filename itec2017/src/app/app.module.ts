@@ -14,6 +14,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { EvolutionComponent } from './pages/statistics/evolution/evolution.component';
 import { ComparativeComponent } from './pages/statistics/comparative/comparative.component';
 import { RegionComponent } from './pages/statistics/region/region.component';
+import {AnychartDirective, AnychartService} from 'anychart-angular2/components';
+import { EvolChartComponent } from './pages/statistics/evolution/evol-chart/evol-chart.component';
+import {ChartsModule} from 'ng2-charts';
+
 
 const ROUTES: Routes = [
   {
@@ -35,15 +39,18 @@ const ROUTES: Routes = [
     AboutComponent,
     EvolutionComponent,
     ComparativeComponent,
-    RegionComponent
+    RegionComponent,
+    AnychartDirective,
+    EvolChartComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    ChartsModule
   ],
-  providers: [],
+  providers: [ AnychartService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
