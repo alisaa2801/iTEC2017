@@ -8,6 +8,8 @@ import {HomeComponent} from './pages/home/home.component';
 import {SubtitleComponent} from './pages/subtitle/subtitle.component';
 import {RouterModule, Routes} from '@angular/router';
 import { PollutionMapComponent } from './pages/pollution-map/pollution-map.component';
+import { GetInvolvedComponent } from './pages/get-involved/get-involved.component';
+import { StatisticsComponent } from './pages/statistics/statistics.component';
 
 const ROUTES: Routes = [
   {
@@ -23,7 +25,9 @@ const ROUTES: Routes = [
     AppComponent,
     HomeComponent,
     SubtitleComponent,
-    PollutionMapComponent
+    PollutionMapComponent,
+    GetInvolvedComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,

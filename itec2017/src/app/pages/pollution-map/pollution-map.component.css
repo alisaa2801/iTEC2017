@@ -1,0 +1,13 @@
+.page_description{
+
+  color: darkslategrey;
+  font-weight: bold;
+  size: 45px;
+  text-align: justify;
+
+}
+.map{
+  color: forestgreen;
+  font-weight: bold;
+  text-align: left;
+}
