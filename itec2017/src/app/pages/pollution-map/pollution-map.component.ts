@@ -60,6 +60,7 @@ export class PollutionMapComponent implements OnInit {
     }
   }
   public chartButton2012() {
+    console.log(1234);
     this.hiddenChart2012 = !this.hiddenChart2012;
     if (!this.hiddenChart2012 ) {
       this.hiddenChart = true;

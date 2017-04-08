@@ -11,3 +11,17 @@
   font-weight: bold;
   text-align: left;
 }
+
+.card-header{
+  size: 125px;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.emptyspace{
+  height:5%;
+}
+
+.spacebetween{
+  height:3%;
+}

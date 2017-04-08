@@ -29,6 +29,4 @@ export class EvolChart2009Component implements OnInit {
   public chartHovered(e: any): void {
     console.log(e);
   }
-
-
 }

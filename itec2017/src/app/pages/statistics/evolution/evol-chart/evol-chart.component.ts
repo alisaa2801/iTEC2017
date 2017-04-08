@@ -12,7 +12,7 @@ export class EvolChartComponent implements OnInit {
 
   // Pie
   public pieChartLabels: string[] = ['Most polluted', 'Medium pollution', 'Cleanest city', 'bestbla'];
-  public pieChartData: number[] = [500, 300, 100, 100];
+  public pieChartData: number[] = [200, 700, 300, 100];
   public pieChartType = 'pie';
 
   constructor() {

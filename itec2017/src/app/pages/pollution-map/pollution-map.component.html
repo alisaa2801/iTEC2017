@@ -1,31 +1,104 @@
-<p></p><p></p><p></p><p></p>
-<h3 class="map1">
-  The interactive map of air pollution in different regions of Romania.
-</h3>
-<p class="page_description">
-  Air pollution and water pollution caused by industry are serious environmental problems in Romania.
-  The country’s factories, chemical plants, and electric power plants depend heavily on burning fossil fuels, a process that emits high levels of carbon dioxide and sulfur dioxide - a key component of acid rain.
-</p>
+<div class="emptyspace"></div>
 
-<p></p>
-<p></p>
-<button type="submit" class="btn btn-primary" (click)="chartButton()">2008</button>
-<button type="submit" class="btn btn-primary" (click)="chartButton()">2009</button>
-<button type="submit" class="btn btn-primary" (click)="chartButton()">2010</button>
-<button type="submit" class="btn btn-primary" (click)="chartButton()">2011</button>
-<button type="submit" class="btn btn-primary" (click)="chartButton()">2012</button>
+<div class="card">
+  <div class="card-header">
+    Map to a better world!
+  </div>
+  <div class="card-block">
+    <h4 class="card-title"> The interactive map of air pollution in different regions of Romania.</h4>
+    <p class="card-text">Air pollution and water pollution caused by industry are serious environmental problems in
+      Romania.
+      The country’s factories, chemical plants, and electric power plants depend heavily on burning fossil fuels, a
+      process that emits high levels of carbon dioxide and sulfur dioxide - a key component of acid rain.</p>
+  </div>
+</div>
 
-<app-evol-chart [hidden]="hiddenChart">
-</app-evol-chart>
+<div class="spacebetween"></div>
 
-<app-evol-chart2009 [hidden]="hiddenChart2009">
-</app-evol-chart2009>
+<div class="container">
+  <div class="row align-items-start">
 
-<app-evol-chart2010 [hidden]="hiddenChart2010">
-</app-evol-chart2010>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="assets\Images\images.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">2008</h4>
+          <p class="card-text">Poluarea in 2008 la nivelul intregii tari.</p>
+          <button type="submit" class="btn btn-primary btn-lg" (click)="chartButton()">2008</button>
+        </div>
+      </div>
+    </div>
 
-<app-evol-chart2011 [hidden]="hiddenChart2011">
-</app-evol-chart2011>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="assets\Images\images.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">2009</h4>
+          <p class="card-text">Poluarea in 2009 la nivelul intregii tari.</p>
+          <button type="submit" class="btn btn-primary btn-lg" (click)="chartButton2009()">2009</button>
+        </div>
+      </div>
+    </div>
 
-<app-evol-chart2012 [hidden]="hiddenChart2012">
-</app-evol-chart2012>
+
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="assets\Images\images.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">2010</h4>
+          <p class="card-text">Poluarea in 2010 la nivelul intregii tari.</p>
+          <button type="submit" class="btn btn-primary btn-lg" (click)="chartButton2010()">2010</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="assets\Images\images.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">2011</h4>
+          <p class="card-text">Poluarea in 2011 la nivelul intregii tari.</p>
+          <button type="submit" class="btn btn-primary btn-lg" (click)="chartButton2011()">2011</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="assets\Images\images.jpg" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">2012</h4>
+          <p class="card-text">Poluarea in 2012 la nivelul intregii tari.</p>
+          <button class="btn btn-primary btn-lg" (click)="chartButton2012()">2012</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <app-evol-chart [hidden]="hiddenChart">
+      </app-evol-chart>
+
+      <app-evol-chart2009 [hidden]="hiddenChart2009">
+      </app-evol-chart2009>
+
+      <app-evol-chart2010 [hidden]="hiddenChart2010">
+      </app-evol-chart2010>
+
+      <app-evol-chart2011 [hidden]="hiddenChart2011">
+      </app-evol-chart2011>
+
+      <app-evol-chart2012 [hidden]="hiddenChart2012">
+      </app-evol-chart2012>
+
+
+    </div>
+  </div>
+</div>
+<!--<button type="submit" class="btn btn-primary btn-lg" (click)="chartButton()">2008</button>-->
+<!--<button type="submit" class="btn btn-primary btn-lg" (click)="chartButton()">2009</button>-->
+<!--<button type="submit" class="btn btn-primary btn-lg" (click)="chartButton()">2010</button>-->
+<!--<button type="submit" class="btn btn-primary btn-lg" (click)="chartButton()">2011</button>-->
+<!--<button type="submit" class="btn btn-primary btn-lg" (click)="chartButton()">2012</button>-->
+
