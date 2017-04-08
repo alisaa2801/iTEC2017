@@ -1,59 +1,74 @@
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+           placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
-    <label for="exampleInputNsme1">Password</label>
-    <input type="name" class="form-control" id="exampleInputNsme1" placeholder="Nsme">
+    <label for="exampleInputNsme1">Name</label>
+    <input type="name" class="form-control" id="exampleInputNsme1" placeholder="Enter your name here">
   </div>
-
-  <!--<div class="form-group">-->
-    <!--<label for="exampleSelect1">Example select</label>-->
-    <!--<select class="form-control" id="exampleSelect1">-->
-      <!--<option>1</option>-->
-      <!--<option>2</option>-->
-      <!--<option>3</option>-->
-      <!--<option>4</option>-->
-      <!--<option>5</option>-->
-    <!--</select>-->
-  <!--</div>-->
-  <!--<div class="form-group">-->
-    <!--<label for="exampleSelect2">Example multiple select</label>-->
-    <!--<select multiple class="form-control" id="exampleSelect2">-->
-      <!--<option>1</option>-->
-      <!--<option>2</option>-->
-      <!--<option>3</option>-->
-      <!--<option>4</option>-->
-      <!--<option>5</option>-->
-    <!--</select>-->
-  <!--</div>-->
   <div class="form-group">
     <label for="PollutionProblem">The pollution you found </label>
     <textarea class="form-control" id="PollutionProblem" rows="3"></textarea>
   </div>
   <fieldset class="form-group">
-    <legend>Radio buttons</legend>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-        Option one is this and that&mdash;be sure to include why it's great
-      </label>
-    </div>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-        Option two can be something else and selecting it will deselect option one
-      </label>
-    </div>
-    <div class="form-check disabled">
-      <label class="form-check-label">
-        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-        Option three is disabled
-      </label>
-    </div>
+    <legend>The polluted city</legend>
+
+    <select class="custom-select">
+      <option selected>City</option>
+      <option value="1">ALBA IULIA</option>
+      <option value="2">ARAD</option>
+      <option value="3">BUCURESTI</option>
+      <option value="4">BACAU</option>
+      <option value="5">BAIA MARE</option>
+      <option value="6">BISTRITA</option>
+      <option value="7">BOTOSANI</option>
+      <option value="8">BRAILA</option>
+      <option value="9">BRASOV</option>
+      <option value="10">BUZAU</option>
+      <option value="11">CALAN</option>
+      <option value="12">CALARASI</option>
+      <option value="13">CAMPULUNG</option>
+      <option value="14">CLUJ-NAPOCA</option>
+      <option value="15">CONSTANTA</option>
+      <option value="16">CRAIOVA</option>
+      <option value="17">DEVA</option>
+      <option value="18">DROBETA TURNU SEVERIN</option>
+      <option value="19">FOCSANI</option>
+      <option value="20">GALATI</option>
+      <option value="21">GIURGIU</option>
+      <option value="22">IASI</option>
+      <option value="23">LUGOJ</option>
+      <option value="24">MANGALIA</option>
+      <option value="25">MEDIAS</option>
+      <option value="26">MIERCUREA CIUC</option>
+      <option value="27">NAVODARI</option>
+      <option value="27">ORADEA</option>
+      <option value="27">OTELU ROSU</option>
+      <option value="27">PIATRA NEAMT</option>
+      <option value="27">PITESTI</option>
+      <option value="27">PLOIESTI</option>
+      <option value="27">RAMNICU VALCEA</option>
+      <option value="27">RESITA</option>
+      <option value="27">SATU MARE</option>
+      <option value="27">SEBES</option>
+      <option value="27">SIBIU</option>
+      <option value="27">SUCEAVA</option>
+      <option value="27">TARGOVISTE</option>
+      <option value="27">TARGU JIU</option>
+      <option value="27">TIMISOARA</option>
+      <option value="27">URZICENI</option>
+      <option value="27">VASLUI</option>
+      <option value="27">ZALAU</option>
+
+
+
+    </select>
   </fieldset>
+
+
 
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>

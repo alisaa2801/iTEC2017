@@ -23,11 +23,10 @@
     <!-- Indicates a successful or positive action -->
     <button type="button" class="btn btn-success btn-lg">Statistics</button>
     <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success btn-lg">Get involved!</button>
+    <button type="button" class="btn btn-success btn-lg" (click)="getInvolvedButton()">Get involved!</button>
 
 
-    <app-get-involved>
-
+    <app-get-involved [hidden]="hiddenForm">
     </app-get-involved>
 
   </div>
