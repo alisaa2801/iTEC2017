@@ -1,0 +1,27 @@
+{
+  "AlbaIulia": {
+    "station_european_code": "ALBA IULIA",
+    "component_code": 1,
+    "component_name": "Sulphur dioxide (air)",
+    "component_caption": "SO2",
+    "statistics_year": 2009,
+    "statistic_shortname": "P50",
+    "statistic_name": "50 percentile",
+    "statistic_value": "5,831",
+    "statistics_percentage_valid": "95,890",
+    "statistics_number_valid": 350
+  },
+  "Arad": {
+    "station_european_code": "ARAD",
+    "component_code": 1,
+    "component_name": "Sulphur dioxide (air)",
+    "component_caption": "SO2",
+    "statistics_year": 2009,
+    "statistic_shortname": "P50",
+    "statistic_name": "50 percentile",
+    "statistic_value": "11,332",
+    "statistics_percentage_valid": "84,110",
+    "statistics_number_valid": 307
+  }
+}
+

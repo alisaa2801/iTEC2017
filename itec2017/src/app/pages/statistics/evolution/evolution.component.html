@@ -12,52 +12,52 @@
         <h4 class="card-title">City</h4>
         <!--<legend>The polluted city</legend>-->
 
-        <select class="custom-select">
+        <select class="custom-select" id="ListaEvolution">
           <option selected>City</option>
-          <option value="1">ALBA IULIA</option>
-          <option value="2">ARAD</option>
-          <option value="3">BUCURESTI</option>
-          <option value="4">BACAU</option>
-          <option value="5">BAIA MARE</option>
-          <option value="6">BISTRITA</option>
-          <option value="7">BOTOSANI</option>
-          <option value="8">BRAILA</option>
-          <option value="9">BRASOV</option>
-          <option value="10">BUZAU</option>
-          <option value="11">CALAN</option>
-          <option value="12">CALARASI</option>
-          <option value="13">CAMPULUNG</option>
-          <option value="14">CLUJ-NAPOCA</option>
-          <option value="15">CONSTANTA</option>
-          <option value="16">CRAIOVA</option>
-          <option value="17">DEVA</option>
-          <option value="18">DROBETA TURNU SEVERIN</option>
-          <option value="19">FOCSANI</option>
-          <option value="20">GALATI</option>
-          <option value="21">GIURGIU</option>
-          <option value="22">IASI</option>
-          <option value="23">LUGOJ</option>
-          <option value="24">MANGALIA</option>
-          <option value="25">MEDIAS</option>
-          <option value="26">MIERCUREA CIUC</option>
-          <option value="27">NAVODARI</option>
-          <option value="28">ORADEA</option>
-          <option value="29">OTELU ROSU</option>
-          <option value="30">PIATRA NEAMT</option>
-          <option value="31">PITESTI</option>
-          <option value="32">PLOIESTI</option>
-          <option value="33">RAMNICU VALCEA</option>
-          <option value="34">RESITA</option>
-          <option value="35">SATU MARE</option>
-          <option value="36">SEBES</option>
-          <option value="37">SIBIU</option>
-          <option value="38">SUCEAVA</option>
-          <option value="39">TARGOVISTE</option>
-          <option value="40">TARGU JIU</option>
-          <option value="41">TIMISOARA</option>
-          <option value="42">URZICENI</option>
-          <option value="43">VASLUI</option>
-          <option value="44">ZALAU</option>
+          <option value="1">AlbaIulia</option>
+          <option value="2">Arad</option>
+          <option value="3">Bucuresto</option>
+          <option value="4">Bacau</option>
+          <option value="5">BaiaMare</option>
+          <option value="6">Bistrita</option>
+          <option value="7">Botosani</option>
+          <option value="8">Braila</option>
+          <option value="9">Brasov</option>
+          <option value="10">Buzau</option>
+          <option value="11">Calan</option>
+          <option value="12">Calarasi</option>
+          <option value="13">Campulung</option>
+          <option value="14">ClujNapoca</option>
+          <option value="15">Constanta</option>
+          <option value="16">Craiova</option>
+          <option value="17">Deva</option>
+          <option value="18">DrobetaTurnuSeverin</option>
+          <option value="19">Focsani</option>
+          <option value="20">Galati</option>
+          <option value="21">Giurgiu</option>
+          <option value="22">Iasi</option>
+          <option value="23">Lugoj</option>
+          <option value="24">Mangalia</option>
+          <option value="25">Medias</option>
+          <option value="26">MiercureaCiuc</option>
+          <option value="27">Navodari</option>
+          <option value="28">Oradea</option>
+          <option value="29">OteluRosu</option>
+          <option value="30">PiatraNeamt</option>
+          <option value="31">Pitesti</option>
+          <option value="32">Ploiesti</option>
+          <option value="33">RamnicuValcea</option>
+          <option value="34">Resita</option>
+          <option value="35">SatuMare</option>
+          <option value="36">Sebes</option>
+          <option value="37">Sibiu</option>
+          <option value="38">Suceava</option>
+          <option value="39">Targovist</option>
+          <option value="40">TarguJiu</option>
+          <option value="41">Timisoara</option>
+          <option value="42">Urziceni</option>
+          <option value="43">Vaslui</option>
+          <option value="44">Zalau</option>
 
 
         </select>
@@ -84,7 +84,7 @@
 
 <p></p>
 <p></p>
-<button type="submit" class="btn btn-primary" (click)="chartButton()">Submit</button>
-
+<button id="clk1" type="submit" class="btn btn-primary" (click)="chartButton()">Submit</button>
+<script src="main.js"></script>
 <app-evol-chart [hidden]="hiddenChart">
 </app-evol-chart>
