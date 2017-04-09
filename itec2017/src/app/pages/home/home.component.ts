@@ -17,12 +17,12 @@ export class HomeComponent implements OnInit {
   }
 
   public getInvolvedButton() {
-  this.hiddenForm = !this.hiddenForm;
-  if (!this.hiddenForm) {
-    this.hiddenAbout = true;
-    this.hiddenStatistics = true;
+    this.hiddenForm = !this.hiddenForm;
+    if (!this.hiddenForm) {
+      this.hiddenAbout = true;
+      this.hiddenStatistics = true;
+    }
   }
-}
 
   public aboutButton() {
     this.hiddenAbout = !this.hiddenAbout;

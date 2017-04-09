@@ -19,12 +19,14 @@
     <p></p>
     <p></p>
 
-    <button type="button" class="btn btn-warning btn-lg" (click)="evolutionButton()">Evolution of pollution</button>
-    <div id="page-info"></div>
-    <!-- Indicates a dangerous or potentially negative action -->
-    <button type="button" class="btn btn-danger btn-lg" (click)="comparativeButton()">Comparative pollution</button>
+    <button type="button" class="btn btn-primary btn-lg" (click)="evolutionButton()">Evolution of pollution</button>
 
-    <button type="button" class="btn btn-info btn-lg" (click)="regionButton()">Region pollution</button>
+    <!-- Indicates a dangerous or potentially negative action -->
+    <button type="button" class="btn btn-primary btn-lg" (click)="comparativeButton()">Comparative pollution</button>
+
+    <button type="button" class="btn btn-primary btn-lg" (click)="regionButton()">Region pollution</button>
+
+    <div id="page-info"></div>
 
     <app-evolution [hidden]="hiddenEvolution">
     </app-evolution>

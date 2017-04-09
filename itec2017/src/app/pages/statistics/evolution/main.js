@@ -2,7 +2,7 @@ var stationContainer=document.getElementById("station-info");
 var clk1  = document.getElementById("clk1");
 
 clk1.addEventListener("click",function() {
-
+  console.log("logat2");
   var request = new XMLHttpRequest();
   var e = document.getElementById("ListaEvolution");
   var strUser = e.options[e.selectedIndex].text;
@@ -21,6 +21,7 @@ clk1.addEventListener("click",function() {
 });
 
 function renderHTML(ourData){
+  console.log("logat1");
   var htmlString= "<p>"+"Date inregistrate: ";
   for (i=0;i<ourData.length;i++){
     htmlString=htmlString+" componenta: "+ourData[i].component_name+" an: "+ourData[i].statistics_year+" valoare: "+ourData[i].statistic_value+"</p>";
